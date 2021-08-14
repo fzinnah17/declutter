@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import applogo from './images/declutter.png'; // import the images from out images folder
+import cleanroom from './images/1clean.png';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img className="App-logo" src={applogo} alt={"app logo"} /> 
+        <img className="Clean-Room" src={cleanroom} alt={"clean room"} />
       </header>
     </div>
   );
 }
+// here we see the img tag and i gave it a className, this is for CSS, and inside src={} is the import name from the top
 
 export default App;
+
+
