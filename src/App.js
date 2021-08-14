@@ -2,27 +2,23 @@ import applogo from './images/declutter.png'; // import the images from out imag
 import ImageState from './Image_state';
 import './App.css';
 import Tasks from './Tasks';
-import AddIcon from '@material-ui/icons/Add';
-import { Button } from '@material-ui/core';
-import Box from '@material-ui/core/Box';
+import Button from './Button'
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <img className="App-logo" src={applogo} alt={"app logo"} />
-      </header>
-      <body className="App-body">
+      </div>
+      <div className="App-body">
           <ImageState />
+          <div className='sized-box'></div>
           <Tasks/>
-      </body>
-      <Box className="AddBtn">
-        <Button />
-      <AddIcon />
-      <text>Add Task</text>
+      </div>
+        <Button/>
     
-      </Box>
       </div>
   );
 }
