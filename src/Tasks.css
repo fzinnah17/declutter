@@ -1,0 +1,17 @@
+.container{
+    background-color: #9C7C73;
+    border-radius: 15px;
+    height: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 10px;
+
+}
+.Task-List{
+    color: FBF8F8;
+    font-size: 12px;
+
+}

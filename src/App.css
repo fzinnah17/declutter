@@ -1,20 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  size: 10px;
-  display: flex;
-  align-items: flex-start;
-}
-.Clean-Room{
-  size: 10px;
-  display: flex;
-  align-items: flex-start;
-}
-
-.App-header {
-  background-color: #CFD7B3;
+  background-color: #cfd7b3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,3 +10,30 @@
   color: white;
 }
 
+.App-logo {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.Clean-Room {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.AddBtn{
+  color: #EB9698;
+  height:auto;
+  width:auto;
+}
