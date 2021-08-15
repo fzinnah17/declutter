@@ -10,17 +10,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.Task-list .checkboxes label{
+#Task-list{
     font:bolder 60%;
     padding-right: 60px;
       
-}
-
-.checkbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
 }
