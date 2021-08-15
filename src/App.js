@@ -22,7 +22,7 @@ function App() {
       </div>
 
       <div className="App-body">
-        <ImageState />
+        {/* <ImageState /> */}
         <div className='sized-box'></div>
         <ToDoList title='bepis' tasks={tasks} />
       </div>

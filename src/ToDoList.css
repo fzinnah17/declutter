@@ -1,13 +1,17 @@
 .container{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9C7C73;
+    background-color: #cfd7b3;
     border-radius: 15px;
     height: auto;
-    text-align: start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start; 
     justify-content: left;
     float: left;
     padding: 20px;
-    cursor: pointer;
+    cursor: pointer;     
+
     transition: all 0.3s ease;
 }
 .Task-list .checkboxes label{
@@ -16,6 +20,31 @@
       
 }
 
+.ContainerImage{
+    background-color: #cfd7b3;
+    height: auto;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sizedbox{
+    width:300px;
+}
+#Task-List{
+    background-color: #9C7C73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: start;
+    direction: column;
+    justify-content: left;
+    float: left;
+    padding: 20px;
+    cursor: pointer;    
+}
 .checkbox {
     position: absolute;
     top: 0;

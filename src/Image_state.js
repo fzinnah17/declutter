@@ -10,7 +10,7 @@ class ImageState extends React.Component {
     render() {
         return (
             <div className="Image" >
-                <Room count={5}/>
+                <Room count={this.props.count}/>
             </div>
         );
     }
@@ -19,6 +19,7 @@ class ImageState extends React.Component {
 
 function Room(props) {
     let count = props.count;
+    console.log(count);
     if (count <= 3) {
         return (
             <img src={cleanroom} alt={"clean room"} />

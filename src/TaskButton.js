@@ -2,8 +2,11 @@ import React from "react";
 
 function TaskButton({ onValue }) {
     const handleClick = () => {
+        
         const taskName = prompt("Enter Task: ");
-        onValue(taskName);
+        if(taskName.length >0){
+            onValue(taskName);
+    }
     }
 
     return (
