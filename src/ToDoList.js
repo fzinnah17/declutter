@@ -3,15 +3,13 @@ import './ToDoList.css';
 import Box from '@material-ui/core/Box';
 import ToDo from "./ToDo.js"
 
-function ToDoList(props){
-    var value = props.enteredTask;
-    console.log(value);
-    return(
+function ToDoList({ tasks }) {
+    
+    return (
         <Box className="container">
             <div id="Task-List">
-                <ToDo task={'test'}/>
+                {tasks.map(task => <ToDo title={task} />)}
             </div>
-
         </Box>
     );
 }
