@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-import Tasks from "./ToDoList";
-
-
+import Tasks from './ToDoList.js';
 
 class Button extends React.Component {
     constructor(props){
