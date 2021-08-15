@@ -1,7 +1,7 @@
 import React from "react";
-import "./ToDoList.css";
+import './ToDoList.css';
 import Box from '@material-ui/core/Box';
-import ToDo from './ToDo';
+import ToDo from "./ToDo.js"
 
 function ToDoList(props){
     var value = props.enteredTask;
