@@ -32,9 +32,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.sized-box{
+/* .sized-box{
   width: 350px;
-}
+} */
 .AddBtn{
   height: 40px;
   width: 200px;

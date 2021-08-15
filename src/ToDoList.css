@@ -1,17 +1,16 @@
 .container{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9C7C73;
+    background-color: #cfd7b3;
     border-radius: 15px;
     height: auto;
-    text-align: start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start; 
     justify-content: left;
     float: left;
     padding: 20px;
-    cursor: pointer;
+    cursor: pointer;     
+
     transition: all 0.3s ease;
-}
-#Task-list{
-    font:bolder 60%;
-    padding-right: 60px;
-      
 }
