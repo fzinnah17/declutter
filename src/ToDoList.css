@@ -7,10 +7,50 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: start; 
-    justify-content: left;
+    justify-content: center;
     float: left;
     padding: 20px;
     cursor: pointer;     
+    transition: all 0.2s ease;
+}
 
-    transition: all 0.3s ease;
+.ContainerImage{
+    background-color: #cfd7b3;
+    height: auto;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sizedbox{
+    width:300px;
+}
+#Task-List{
+    background-color: #9C7C73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: start;
+    direction: column;
+    justify-content: center;
+    float: center;
+    padding: 20px;
+    cursor: pointer;    
+}
+label{
+    display: inline-block;
+}
+.checkbox{
+    box-sizing: border-box;
+    color: #9C7C73;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4px;
+
+}
+.completed-task {
+    text-decoration: line-through;
+    color: #db3545;
 }

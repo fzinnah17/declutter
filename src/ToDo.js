@@ -1,4 +1,3 @@
-import './ToDo.css'
 import React from 'react';
 
 export default function Todo({ title, completed}) {
@@ -6,13 +5,13 @@ export default function Todo({ title, completed}) {
         <form>
             <div class="inline-field">
             <input type="checkbox" id="checkbox" name="accept" value="yes">
-            </input>
+        </input>
         <label
             for="checkbox-inline"
             className= "list-group-item d-flex justify-content-between my-2"
             >
             <h6 
-                className={`align-middle ${completed ? 'completed-task' : ''}`}
+                className={` ${completed ? 'completed-task' : ''}`}
             >{title}
             </h6>
         </label>
