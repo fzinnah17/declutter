@@ -4,7 +4,12 @@ Designed and developed by Farnaz Zinnah, Xin Yi Li , Omina Elsheikh, and Catheri
 
 🔗 [Explore declutter](https://de-clutter.netlify.app/)
 
-![declutter App Screenshot]()
+## Declutter App Screenshots
+![Image 1](https://github.com/fzinnah17/declutter/blob/master/declutterOne.jpeg)
+![Image 2](https://github.com/fzinnah17/declutter/blob/master/declutterTwo.jpeg)
+![Image 3](https://github.com/fzinnah17/declutter/blob/master/declutterThree.jpeg)
+![Image 4](https://github.com/fzinnah17/declutter/blob/master/declutterFour.jpeg)
+
 
 ## About declutter
 
