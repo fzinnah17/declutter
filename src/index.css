@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+
+  --ivory: #f3f0e6;
+  --paper: #faf8f2;
+  --paper-2: #e7e5d5;
+
+  --navy: #151c2d;
+  --navy-soft: #283149;
+
+  --oxblood: #74292d;
+  --oxblood-dark: #521b1f;
+
+  --sage: #cdd5b2;
+  --sage-dark: #a6ad8e;
+
+  --dust: #aa827b;
+
+  --pewter: #73746c;
+
+  --line: #d8d3c5;
+  --line-dark: #c4bdae;
+
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Inter', sans-serif;
+
+  color: var(--navy);
+  background: var(--ivory);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--ivory);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      rgba(21, 28, 45, 0.022) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(21, 28, 45, 0.022) 1px,
+      transparent 1px
+    ),
+    var(--ivory);
+
+  background-size: 34px 34px;
+
+  color: var(--navy);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--oxblood);
+  color: white;
+}
